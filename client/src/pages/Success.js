@@ -30,8 +30,12 @@ function Success() {
         saveOrder();
     }, [addOrder]);
 
+    const goHome = function () {
+        window.location = "/";
+    }
 
-
+    setTimeout(goHome,3000);
+    
     return (
         <div>
             <Jumbotron>
